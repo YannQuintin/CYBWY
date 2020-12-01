@@ -1,0 +1,151 @@
+#end-screen {
+  display: none;  
+}
+
+body{
+    background-color: #EDCCF8 ;
+    margin-top: 40px;
+}
+
+body {
+    background-color: #EDCCF8;
+}
+
+canvas {
+  margin: auto;
+}
+.container-fluid{
+    text-align: center;
+}
+.bold{
+    font-weight: bold;
+}
+img{
+    width: 60px;
+}
+.btn{
+    background-color: #EBAFEE;
+    border: RGB(153, 41, 158);
+}
+.btn:hover{
+    background-color: #601679;
+}
+.animated-logo1{
+    width: 100px;
+    height: 100px;
+    background:#EDCCF8;
+    position: relative;
+    animation-name: example1;
+    animation-duration: 5s;
+    animation-iteration-count: 150;
+    animation-fill-mode: alternate;
+}
+
+@keyframes example1 {
+  from {left: 900px;}
+  to {left: 300px;}
+}
+.animated-logo2{
+    padding: 30px;       
+    width: 100px;
+    height: 100px;
+    background:#EDCCF8;
+    position: relative;
+    animation-name: example2;
+    animation-duration: 5s;
+    animation-iteration-count: 150;
+    animation-fill-mode: alternate;
+}
+@keyframes example2 {
+  from {left: 300px;}
+  to {left: 900px }
+}
+.title{
+    padding: 10px;
+    color: #BC7BD2;
+    text-align: center;
+}
+.first-title{
+    text-shadow: 5px 2px purple;
+}
+.row{
+    padding: 30px;
+    align: center;
+    justify-content: center;
+}
+.game-explanation{
+    display: flex;
+    flex-direction: column;
+    color: darkorchid;
+    padding: 60px 60px;
+    border-style: outset;
+    border-width: 25px;
+    border-color: #EBAFEE;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: content-box;
+}
+.score-container{
+    color: darkorchid;
+    margin-bottom: 20px;
+}
+.score-container li{
+    list-style: none;
+    padding: 5px;
+}
+.step {
+    border-style: dashed;
+}
+.step-4{
+    width: 400px;
+    padding-bottom: 30px;
+    border-radius: 20%;
+}
+.breasts{
+    padding: 20px;
+    color: darkorchid;
+    border: 5px solid purple;
+    margin: 20px 20px 30px 20px;
+    border-radius: 20px;
+    box-shadow: 15px 10px;
+    box-sizing: content-box;
+}
+.breasts h3{
+    border: 5px solid purple;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px;
+}
+.breasts-1{
+    width: 200px;
+    padding-bottom: 30px;
+    border-radius: 100%;
+}
+.balls-1{
+    width: 300px;
+    padding-bottom: 30px;
+    border-radius: 20%;
+}
+.balls-Title{
+    margin-top: 40px;
+    font-size: 3rem;
+    color: rebeccapurple;
+    border-style: dotted;
+}
+.balls-p{
+    padding: 10px 50px;
+    text-align: justify;
+}
+
+.footer-{
+    color: #EDCCF8;
+    background-color: blueviolet;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.footer- p{
+    padding: 10px;
+    text-align: center;
+}

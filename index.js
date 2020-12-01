@@ -145,7 +145,7 @@ class Player extends Component {
 
 
 
- const gameState = {
+const gameState = {
   currentState: "menu", // If it is Menu, game is stopped and menu appears, if it is gaming, game resume and frames updates
   currentLevel: "level1",
   level1: [
@@ -162,9 +162,10 @@ class Player extends Component {
     {space: "Classroom", state: "public", background:"./img/backgrounds/Classroom-Background.png", fromX: 10001, toX: 11000},
     {space: "Bathroom2", state: "public", background:"./img/backgrounds/Bathroom2-Background.png", fromX: 11001, toX: 12000},
    ],
-} 
-/*
-const gameState = {
+}
+
+/* const gameState = {
+
   //currentState: "menu", // If it is Menu, game is stopped and menu appears, if it is gaming, game resume and frames updates
   currentLevel: "level1",
   level1: [
