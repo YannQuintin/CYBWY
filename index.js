@@ -144,7 +144,7 @@ class Player extends Component {
 }
 
 
-
+/*
  const gameState = {
   currentState: "menu", // If it is Menu, game is stopped and menu appears, if it is gaming, game resume and frames updates
   currentLevel: "level1",
@@ -163,7 +163,7 @@ class Player extends Component {
     {space: "Bathroom2", state: "public", background:"./img/backgrounds/Bathroom2-Background.png", fromX: 11001, toX: 12000},
    ],
 } 
-/*
+*/
 const gameState = {
   //currentState: "menu", // If it is Menu, game is stopped and menu appears, if it is gaming, game resume and frames updates
   currentLevel: "level1",
@@ -176,7 +176,7 @@ const gameState = {
     {space: "Bedroom2", state: "private", background:"./img/backgrounds/Bedroom2-background.png", fromX: 5001, toX: 6000},
     {space: "Classroom", state: "public", background:"./img/backgrounds/Classroom-Background.png", fromX: 6001, toX: 7000},
    ],
-} */
+} 
 
 // * Creating an HTML empty element to contain all the IMG elements
 // * We are doing this together with the appenChild method below in order to then have an HTML Collection to loop through
