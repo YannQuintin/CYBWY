@@ -149,18 +149,18 @@ class Player extends Component {
   currentState: "menu", // If it is Menu, game is stopped and menu appears, if it is gaming, game resume and frames updates
   currentLevel: "level1",
   level1: [
-    {space: "Bedroom1", state: "private", background:"./img/backgrounds/Bedroom1-Background.png",fromX: 0, toX: 1000},
-    {space: "Office", state: "public", background:"./img/backgrounds/Office-Background.png", fromX: 1001, toX: 2000},
-    {space: "kitchen", state: "public", background:"./img/backgrounds/Kitchen-Background.png", fromX: 2001, toX: 3000},
-    {space: "toilets", state: "private", background:"./img/backgrounds/Toilets-Background.png", fromX: 3001, toX: 4000},
-    {space: "Bathroom1", state: "private", background:"./img/backgrounds/Bathroom1-Background.png", fromX: 4001, toX: 5000},
-    {space: "Hallway", state: "public", background:"./img/backgrounds/Hallway-Background.png",fromX: 5001, toX: 6000},
-    {space: "Bedroom2", state: "private", background:"./img/backgrounds/Bedroom2-Background.png", fromX: 6001, toX: 7000},
-    {space: "Garage", state: "public", background:"./img/backgrounds/Garage-Background.png", fromX: 7001, toX: 8000},
-    {space: "Garden", state: "public", background:"./img/backgrounds/Garden-Background.png", fromX: 8001, toX: 9000},
-    {space: "Supermarket", state: "public", background:"./img/backgrounds/Supermarket-Background.png", fromX: 9001, toX: 10000},
-    {space: "Classroom", state: "public", background:"./img/backgrounds/Classroom-Background.png", fromX: 10001, toX: 11000},
-    {space: "Bathroom2", state: "public", background:"./img/backgrounds/Bathroom2-Background.png", fromX: 11001, toX: 12000},
+    {space: "Bedroom1", state: "private", background:"./img/backgrounds/Bedroom1-Background.png",fromX: 0, toX: 1000}, y
+    {space: "Office", state: "public", background:"./img/backgrounds/Office-Background.png", fromX: 1001, toX: 2000}, y
+    {space: "kitchen", state: "public", background:"./img/backgrounds/Kitchen-Background.png", fromX: 2001, toX: 3000}, y
+    {space: "toilets", state: "private", background:"./img/backgrounds/Toilets-Background.png", fromX: 3001, toX: 4000}, y
+    {space: "Bathroom1", state: "private", background:"./img/backgrounds/Bathroom1-Background.png", fromX: 4001, toX: 5000}, y
+    {space: "Hallway", state: "public", background:"./img/backgrounds/Hallway-Background.png",fromX: 5001, toX: 6000}, y
+    {space: "Bedroom2", state: "private", background:"./img/backgrounds/Bedroom2-Background.png", fromX: 6001, toX: 7000}, y
+    {space: "Garage", state: "public", background:"./img/backgrounds/Garage-Background.png", fromX: 7001, toX: 8000}, y
+    {space: "Garden", state: "public", background:"./img/backgrounds/Garden-Background.png", fromX: 8001, toX: 9000}, y
+    {space: "Supermarket", state: "public", background:"./img/backgrounds/Supermarket-Background.png", fromX: 9001, toX: 10000}, y
+    {space: "Classroom", state: "public", background:"./img/backgrounds/Classroom-Background.png", fromX: 10001, toX: 11000}, y
+    {space: "Bathroom2", state: "public", background:"./img/backgrounds/Bathroom2-Background.png", fromX: 11001, toX: 12000}, y
    ],
 } 
 */
@@ -170,11 +170,16 @@ const gameState = {
   level1: [
     {space: "Bedroom1", state: "private", background:"./img/backgrounds/Bedroom1-Background.png",fromX: 0, toX: 1000},
     {space: "Office", state: "public", background:"./img/backgrounds/Office-Background.png", fromX: 1001, toX: 2000},
-    {space: "Garden", state: "public", background:"./img/backgrounds/garden-background.png", fromX: 2001, toX: 3000},
+    {space: "Garden", state: "public", background:"./img/backgrounds/garden-background.png", fromX: 2001, toX: 3000}, 
     {space: "toilets", state: "private", background:"./img/backgrounds/Toilets-Background.png", fromX: 3001, toX: 4000},
     {space: "Supermarket", state: "public", background:"./img/backgrounds/Supermarket-Background.png", fromX: 4001, toX: 5000},
     {space: "Bedroom2", state: "private", background:"./img/backgrounds/Bedroom2-background.png", fromX: 5001, toX: 6000},
     {space: "Classroom", state: "public", background:"./img/backgrounds/Classroom-Background.png", fromX: 6001, toX: 7000},
+    {space: "kitchen", state: "public", background:"./img/backgrounds/Kitchen-Background.png", fromX: 7001, toX: 8000},
+    {space: "Hallway", state: "public", background:"./img/backgrounds/Hallway-Background.png",fromX: 8001, toX: 9000},
+    {space: "Bathroom1", state: "private", background:"./img/backgrounds/Bathroom1-Background.png", fromX: 9001, toX: 10000},
+    {space: "Garage", state: "public", background:"./img/backgrounds/Garage-Background.png", fromX: 10001, toX: 11000},
+    {space: "Bathroom2", state: "public", background:"./img/backgrounds/Bathroom2-Background.png", fromX: 11001, toX: 12000},
    ],
 } 
 
